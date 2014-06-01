@@ -14,5 +14,6 @@ urlpatterns = patterns('',
     url(r'^cc101/$', views.cc101_view, name='cc101_view'),
     url(r'^lab/$', views.cclab_view, name='cclab_view'),
     url(r'^rohit/$', views.rohit, name='rohit'),
-	url(r'^gp/$', views.gp, name='gp')
+	url(r'^gp/$', views.gp, name='gp'),
+    url(r'^medhini/$', views.medhini, name='medhini')
 )

@@ -16,7 +16,8 @@ def cclab_view(request):
 # Create your views here.
 
 def medhini(request):
-	return Render_to_Response(request, 'cc101/medhini.html') 
+	return render(request, 'cc101/medhini.html') 
+# Create your views here.
 
 
 def rohit(request):
