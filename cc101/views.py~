@@ -16,4 +16,4 @@ def cclab_view(request):
 # Create your views here.
 
 def gp(request):
-	return render_to_response("cc101/gp.html")
+	return render_to_response("cc01/gp.html")
