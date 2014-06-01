@@ -15,5 +15,12 @@ def cclab_view(request):
     return HttpResponse("Welcome to CurioCity Lab. Become a mad scientist")
 # Create your views here.
 
+def medhini(request):
+	return Render_to_Response(request, 'cc101/medhini.html') 
+
+
+def rohit(request):
+    return render(request,'rohit.html')
+
 def gp(request):
 	return render_to_response("cc101/gp.html")
