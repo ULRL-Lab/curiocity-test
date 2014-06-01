@@ -1,3 +1,4 @@
+from django.shortcuts import render_to_response
 from django.shortcuts import render
 from django.http import HttpResponse
 
@@ -13,3 +14,6 @@ def cc101_view(request):
 def cclab_view(request):
     return HttpResponse("Welcome to CurioCity Lab. Become a mad scientist")
 # Create your views here.
+
+def gp(request):
+	return render_to_response("cc101/gp.html")
