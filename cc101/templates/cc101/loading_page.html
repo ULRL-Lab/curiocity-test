@@ -1,36 +1,70 @@
 {% load staticfiles %}
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Coming Soon</title>
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-<link href="{% static 'tools/style.css' %}" rel="stylesheet" type="text/css" />
-<link href="{% static 'tools/960.css' %}" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script> 
-<script type="text/javascript" src="{% static 'js/cufon-yui.js' %}"></script>
-<script type="text/javascript" src="{% static 'js/Clarendon_LT_Std_700.font.js' %}"></script>
-<script type="text/javascript">
-	Cufon.replace('h1,h3', {fontFamily: 'Clarendon LT Std', hover:true})
-</script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>CurioCity 101</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href=" {% static 'css/bootstrap.css' %}" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="{% static 'css/stylish-portfolio.css' %}" rel="stylesheet">
+    <link href="{% static 'font-awesome/css/font-awesome.min.css' %}" rel="stylesheet">
+	
 </head>
+
 <body>
-<div id="shim"></div>
-<div id="content">
-	<div class="logo_box"><h1><br/>Project <br/>CurioCity</h1></div>          
-	<div class="main_box">
-		<h2>Our website is coming soon.<br/><span>In the mean time connect with us with the information below</span></h2>
+
+    <!-- Side Menu -->
+    
+  <!--  <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand"><a href="http://startbootstrap.com">Start Bootstrap</a>
+            </li>
+            <li><a href="#top">Home</a>
+            </li>
+            <li><a href="#about">About</a>
+            </li>
+            <li><a href="#services">Services</a>
+            </li>
+            <li><a href="#portfolio">Portfolio</a>
+            </li>
+            <li><a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>  -->
+    <!-- /Side Menu -->
+
+    <!-- Full Page Image Header Area -->
+    <div id="top" class="header" >
+        <div class="vert-text" >	
 		
-		<ul class="info">
+            <h1 style = "color:white "> CurioCity 101</h1>
+            <h3 style = "color:white; ">Are you Curious about your City? Take this class </h3>  </br>
+			
+            <a href="#about" class="btn btn-danger btn-lg" style ="opacity:0.8"> <i class="fa fa-google-plus"></i> Login with Google</a>
+			<a href="#about" class="btn btn-primary btn-lg"style ="opacity:0.8"> <i class="fa fa-facebook-square"></i> Login with Facebook</a>
+			<a href="#about" class="btn btn-default btn-lg"style ="opacity:0.8">   Sign Up with Email</a> 
 			
 			
-				<h3></h3>
-				<p>Ubiquitous Learning Research Lab<br/>National Institute of Technology Karnataka</p>
-				<p> <a href ="http://www.ulrl.nitk.ac.in" > ULRL Website </a>
-			
-		</ul>
-	</div>
-</div>
+        </div>
+		
+    </div>
+    <!-- /Full Page Image Header Area -->
+
+   
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
 
 </body>
+
 </html>
